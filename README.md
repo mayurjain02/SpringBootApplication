@@ -16,8 +16,8 @@ http://localhost:8080/demo_war_exploded/student/create
    "studentName": "Mayur",
    "studentId": "ST_1"
 }
-Delete a Student Data: Delete Request
 
+Delete a Student Data: Delete Request
 http://localhost:8080/demo_war_exploded/student/delete
 
 {
