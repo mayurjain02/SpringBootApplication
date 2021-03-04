@@ -13,13 +13,7 @@ Create a Student Data: Post Request
 http://localhost:8080/demo_war_exploded/student/create
 
 {
-   "studentName": "Mayur",{
-16
-   "studentName": "Mayur",
-17
-   "studentId": "ST_1"
-18
-}
+   "studentName": "Mayur",
    "studentId": "ST_1"
 }
 Delete a Student Data: Delete Request
