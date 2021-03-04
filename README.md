@@ -11,22 +11,34 @@ Run the following API calls on Postman to check the endpoints is working:
 
 Create a Student Data: Post Request
 http://localhost:8080/demo_war_exploded/student/create
+
 {
-   "studentName": "Mayur",
+   "studentName": "Mayur",{
+16
+   "studentName": "Mayur",
+17
+   "studentId": "ST_1"
+18
+}
    "studentId": "ST_1"
 }
 Delete a Student Data: Delete Request
+
 http://localhost:8080/demo_war_exploded/student/delete
+
 {
    "studentName": "Mayur",
    "studentId": "ST_1"
 }
+
 Update student Data: Patch Request
 http://localhost:8080/demo_war_exploded/student/update
+
 {
    "studentName": "Mayur",
    "studentId": "ST_1"
 }
+
 Show all student data: Get Request
 http://localhost:8080/demo_war_exploded/student/showAll
 
